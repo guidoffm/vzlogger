@@ -9,7 +9,7 @@
 
 services:
   vzlogger:
-    image: ghcr.io/guidoffm/vzlogger:master
+    image: ghcr.io/guidoffm/vzlogger:latest
     container_name: vzlogger
     restart: unless-stopped
     volumes:
