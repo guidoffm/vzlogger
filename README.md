@@ -31,7 +31,7 @@ Docker
 Multi-arch images for `linux/amd64`, `linux/arm64` and `linux/arm/v7`
 are published to GitHub Container Registry and signed with cosign:
 
-    docker pull ghcr.io/guidoffm/vzlogger:master
+    docker pull ghcr.io/guidoffm/vzlogger:latest
 
 The easiest way to run vzlogger is with the example Compose file
 shipped in this repository: copy `compose.yaml` next to your
@@ -49,7 +49,7 @@ test a change before pushing):
     docker build -t vzlogger .
 
 You can then point the Compose file at the local tag by changing
-`image: ghcr.io/guidoffm/vzlogger:master` to `image: vzlogger`.
+`image: ghcr.io/guidoffm/vzlogger:latest` to `image: vzlogger`.
 
 Debian and Raspberry Pi OS Packages
 -------------
